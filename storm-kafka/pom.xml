@@ -87,13 +87,6 @@
 				<enabled>true</enabled>
 			</releases>
 		</repository>
-		<!-- not found repository -->
-		<!-- <repository> <id>scala-tools</id> <url>http://scala-tools.org/repo-releases</url> 
-			<snapshots> <enabled>true</enabled> </snapshots> <releases> <enabled>true</enabled> 
-			</releases> </repository> -->
-		<!-- <repository> <id>bigpod</id> <url>http://172.21.81.194:8081/nexus/content/groups/bigpod</url> 
-			<snapshots> <enabled>true</enabled> </snapshots> <releases> <enabled>true</enabled> 
-			</releases> </repository> -->
 	</repositories>
 	<dependencies>
 		<dependency>
@@ -101,7 +94,7 @@
 			<artifactId>scala-library</artifactId>
 			<version>2.9.2</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka_2.9.2</artifactId>
 			<version>0.8.0</version>
@@ -115,8 +108,8 @@
 					<artifactId>log4j</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<!-- <dependency>
+		</dependency> -->
+		<dependency>
 			<groupId>com.twitter</groupId>
 			<artifactId>kafka_2.9.2</artifactId>
 			<version>0.7.0</version>
@@ -130,7 +123,7 @@
 					<artifactId>log4j</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>storm</groupId>
 			<artifactId>storm</artifactId>
